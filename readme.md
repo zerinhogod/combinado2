@@ -39,7 +39,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 
 - ```ctrl + s```
 - ```ctrl + x```
-ou
+  ou
 - ```ctrl + o```
 - ```enter```
 - ```ctrl + x```
