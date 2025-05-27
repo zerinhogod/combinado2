@@ -1226,7 +1226,7 @@ async def stream_services_handler(_, update: Update):
     return await close_stream(update.chat_id)
     
     
-@call.on_update(fl.stream_end())
+# @call.on_update(fl.stream_end())
 async def stream_end_handler(_, update: Update):
     chat_id = update.chat_id
     return await change_stream(chat_id)
