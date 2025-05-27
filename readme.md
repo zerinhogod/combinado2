@@ -64,7 +64,7 @@ ou
 <p title="Suporte">Você pode solicitar suporte no Telegram para relatar problemas relacionados ao COMBINADO BOT.</p>
 
 - Link: [**`@COMBINADOASSISTANT_bot`**](https://t.me/COMBINADOASSISTANT_bot)
-> [!Aviso]  
+> [!Warn]  
 > Verifique o nome de usuário do BOT de suporte oficial do COMBINADO no Telegram. Caso encontre algum problema com um BOT ou grupo/canal falso, o COMBINADO não se responsabilizará por isso, portanto, solicitamos que verifique o BOT oficial de suporte do COMBINADO no Telegram.
 
 
