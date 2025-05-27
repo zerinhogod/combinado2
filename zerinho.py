@@ -215,8 +215,8 @@ async def main():
         logs.info(f"🚫 Falha ao iniciar o Assistente❗\n⚠️ Motivo: {e}")
         sys.exit()
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("combinadinhos")
+        await app.join_chat("combinadinhos")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
