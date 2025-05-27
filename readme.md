@@ -58,6 +58,7 @@ ou
 
 **5. Agora saia da tela e feche sua VPS e aproveite!**
 
+<br>
 
 <h2>🌐 Suporte</h2>
 <p title="Suporte">Você pode solicitar suporte no Telegram para relatar problemas relacionados ao COMBINADO BOT.</p>
