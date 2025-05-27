@@ -17,7 +17,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 
 ```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip screen -y && cd && rm -rf combinado2 && git clone https://github.com/zerinhogod/combinado2 && cd combinado2 && pip3 install -r requirements.txt --force-reinstall && screen -R combinado2```
 
-
+<br>
 
 **2. Agora jogue este comando e adicione suas variáveis:**
 
@@ -35,7 +35,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 - `LOG_GROUP_ID`
 - `START_IMAGE_URL`
 
-
+<br>
 
 **3. Depois disso, salve e saia usando os botões abaixo:**
 
@@ -48,13 +48,13 @@ ou
 - ```enter```
 - ```ctrl + x```
 
-
+<br>
 
 **4. Agora execute seu bot:**
 
 ```python3 -m zerinho```
 
-
+<br>
 
 **5. Agora saia da tela e feche sua VPS e aproveite!**
 
