@@ -39,9 +39,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 
 - ```ctrl + s```
 - ```ctrl + x```
-
 ou
-
 - ```ctrl + o```
 - ```enter```
 - ```ctrl + x```
@@ -63,7 +61,8 @@ ou
 > Verifique o nome de usuário do BOT de suporte oficial do COMBINADO no Telegram. Caso encontre algum problema com um BOT ou grupo/canal falso, o COMBINADO não se responsabilizará por isso, portanto, solicitamos que verifique o BOT oficial de suporte do COMBINADO no Telegram.
 
 
-<h2>📑 Acknowledgement / Credits</h2>
+<h2>📑 Créditos</h2>
 
-- [**`Pyrogram:`**](https://github.com/pyrogram) All functions of Aditya-Player based on this mtproto client library.
-- [**`Py-TgCalls:`**](https://github.com/py-tgcalls) Telegram Streaming system of Aditya-Player based on this library.
+- [**`Pyrogram:`**](https://github.com/pyrogram) Todas as funções do BOT são baseadas nesta biblioteca de cliente mtproto.
+- [**`Py-TgCalls:`**](https://github.com/pytgcalls/pytgcalls) Sistema de streaming para Telegram foi baseado nesta biblioteca.
+- [**`@GroupHelpBot:`**](https://t.me/GroupHelpBot) Funções de gerenciamento de grupos foram clonadas deste BOT.
