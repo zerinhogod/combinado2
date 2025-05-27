@@ -1,23 +1,23 @@
 {
-  "name": "AdityaPlayer",
-  "description": "An advanced, powerful & multi-featured vc streaming bot for telegram.",
+  "name": "COMBINADO",
+  "description": "Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...",
   "keywords": [
     "musicbot",
     "vcbot",
     "musicplayer"
   ],
-  "repository": "https://github.com/adityahalder/adityaplayer",
+  "repository": "https://github.com/zerinhogod/combinado2",
   "logo": "https://envs.sh/9oZ.jpg",
   "stack": "container",
   "env": {
     "API_ID": {
       "description": "Get it from my.telegram.org",
-      "value": "12380656",
+      "value": "28394860",
       "required": true
     },
     "API_HASH": {
       "description": "Get it from my.telegram.org",
-      "value": "d927c13beaaf5110f25c505b7c071273",
+      "value": "07b4fad3981e64c0554add6f249f7c07",
       "required": true
     },
     "BOT_TOKEN": {
@@ -42,7 +42,7 @@
     },
     "START_IMAGE_URL": {
       "description": "An image url for your bot.",
-      "value": "https://graph.org/file/918101d0ad6b1207e6201.png",
+      "value": "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png",
       "required": true
     }
   },
