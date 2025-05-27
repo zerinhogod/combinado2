@@ -648,7 +648,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...**"""
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Suporte do BOT ⚙", url=f"https://t.me/@COMBINADOASSISTANT_bot?start=start"
+                    text="🌐 Suporte do BOT 🌐", url=f"https://t.me/@COMBINADOASSISTANT_bot"
                 )
             ],
         ]
@@ -685,7 +685,7 @@ OBS: Sempre que for alternar de música para vídeo ou vice versa, use o /end e 
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Suporte do BOT ⚙", url=f"https://t.me/@COMBINADOASSISTANT_bot?start=start",
+                    text="🌐 Suporte do BOT 🌐", url=f"https://t.me/@COMBINADOASSISTANT_bot",
                 )
             ],
             [
@@ -989,7 +989,7 @@ OBS: Sempre que for alternar de música para vídeo ou vice versa, use o /end e 
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Suporte do BOT ⚙", url=f"https://t.me/@COMBINADOASSISTANT_bot?start=start",
+                    text="🌐 Suporte do BOT 🌐", url=f"https://t.me/@COMBINADOASSISTANT_bot",
                 )
             ],
             [
@@ -1026,7 +1026,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...**"""
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Suporte do BOT ⚙", url=f"https://t.me/@COMBINADOASSISTANT_bot?start=start"
+                    text="🌐 Suporte do BOT 🌐", url=f"https://t.me/@COMBINADOASSISTANT_bot"
                 )
             ],
         ]
