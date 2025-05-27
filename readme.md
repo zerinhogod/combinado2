@@ -1,83 +1,66 @@
 <p align="center">
-<a href="https://github.com/AdityaHalder/vcbot"><img src="https://graph.org/file/918101d0ad6b1207e6201.png" height="270" width="480" alt="AdityaPlayer"/></a>
+<a href="https://t.me/COMBINADO_bot"><img src="https://te.legra.ph/file/fe4373a26d55df8ed04e5.png" height="270" width="480"/></a>
 </p>
 
 <p align="center">
-<b>Aditya-Player</b><br/>
-Aditya-Player is an advanced, powerful & multi-featured Telegram vc streaming bot.
+<b>COMBINADO BOT</b><br/>
+Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 </p>
 
 <h2>🤖 Aditya-Player Info</h2>
-<p title="Aditya-Player">Aditya-Player is an open-source Telegram multi-featured vc streaming bot developed by using the Python programming language and Pyrogram MTProto client library of the Telegram API and PyTgCalls library, a secure and reliable way to interact with the Telegram platform.</p>
+<p title="COMBINADO_bot">O COMBINADO_bot é um bot completo, utiliza sistema baseado no Group Help e streaming de áudio e vídeo em call multifuncional do Telegram, de código aberto, desenvolvido usando a linguagem de programação Python e a biblioteca de cliente Pyrogram MTProto da API do Telegram e a biblioteca PyTgCalls, uma maneira segura e confiável de interagir com a plataforma do Telegram.</p>
 
-<h2>🐬 Host AdityaPlayer On Heroku</h2>
-
-[![Deploy On Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/adityahalder/adityaplayer)
+<h2>♨️ Hospede o COMBINADO BOT no seu servidor VPS</h2>
 
 
-<h2>♨️ Host AdityaPlayer On VPS Server</h2>
+**1. Primeiro copie o comando abaixo e jogue no terminal de sua VPS:**
+
+```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip screen -y && cd && rm -rf combinado2 && git clone https://github.com/zerinhogod/combinado2 && cd combinado2 && pip3 install -r requirements.txt --force-reinstall && screen -R combinado2```
 
 
-**1. At First Copy & Paste Below Command.**
+**2. Agora jogue este comando e adicione suas variáveis:**
 
-```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip screen -y && cd && rm -rf AdityaPlayer && git clone https://github.com/AdityaHalder/AdityaPlayer && cd AdityaPlayer && pip3 install -r requirements.txt --force-reinstall && screen -R AdityaPlayer```
-
-
-**2. Now Run This Command & Add Your Variables.**
-
-```nano Config.env```
+```nano config.env```
 
 
-**Required Variables !**
+**As variáveis obrigatórias são:**
 
-`API_ID`
-
-`API_HASH`
-
-`BOT_TOKEN`
-
-`STRING_SESSION`
-
-`MONGO_DB_URL`
-
-`OWNER_ID`
-
-`LOG_GROUP_ID`
-
-`START_IMAGE_URL`
+- `API_ID`
+- `API_HASH`
+- `BOT_TOKEN`
+- `STRING_SESSION`
+- `MONGO_DB_URL`
+- `OWNER_ID`
+- `LOG_GROUP_ID`
+- `START_IMAGE_URL`
 
 
-**3. After That Save and Exit By Below Buttons.**
+**3. Depois disso, salve e saia usando os botões abaixo:**
 
-```ctrl + s```
+- ```ctrl + s```
+- ```ctrl + x```
 
-```ctrl + x```
+ou
 
-
-**4. Now Run Your Bot in Background.**
-
-```python3 -m AdityaHalder```
-
-
-**5. Now Exit From Screen & Close Your Vps & Enjoy**
-
-```ctrl + a + d```
+- ```ctrl + o```
+- ```enter```
+- ```ctrl + x```
 
 
-> [!IMPORTANT]
-> If you use Aditya-Player, it is important that you have proper knowledge about it. You should follow the [**`Documentation`**](https://t.me/adityaserver) to learn about Aditya-Player.
+**4. Agora execute seu bot:**
 
-<h2>🤝 Contributing</h2>
-<p title="Contributing">As Aditya-Player is an open-source project, all kinds of contributions are respectfully welcomed, and I also extend my sincere thanks to all contributors.</p>
+```python3 -m zerinho```
 
-<h2>🌐 Updates & Support</h2>
-<p title="Support">You can join Aditya-Player's official Telegram channel and group on Telegram for any updates and support-related issues of Aditya-Player.</p>
 
-- Telegram Updates: [**`@AdityaServer`**](https://t.me/adityaserver)
+**5. Agora saia da tela e feche sua VPS e aproveite!**
 
-- Telegram Support: [**`@AdityaDiscus`**](https://t.me/adityadiscus)
-> [!WARNING]  
-> Verify the username of Aditya-Player's official Telegram channel and group. If you face a problem with a fake channel or group, Aditya-Player will not take responsibility for it, so I request that you verify Aditya-Player's official Telegram channel and group.
+
+<h2>🌐 Suporte</h2>
+<p title="Suporte">Você pode solicitar suporte no Telegram para relatar problemas relacionados ao COMBINADO BOT.</p>
+
+- Link: [**`@COMBINADOASSISTANT_bot`**](https://t.me/COMBINADOASSISTANT_bot)
+> [!Aviso]  
+> Verifique o nome de usuário do BOT de suporte oficial do COMBINADO no Telegram. Caso encontre algum problema com um BOT ou grupo/canal falso, o COMBINADO não se responsabilizará por isso, portanto, solicitamos que verifique o BOT oficial de suporte do COMBINADO no Telegram.
 
 
 <h2>📑 Acknowledgement / Credits</h2>
