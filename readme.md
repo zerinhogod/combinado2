@@ -8,7 +8,7 @@ Sou um bot que gerencio grupos, reproduzo músicas, entre outras coisas...
 </p>
 
 <h2>🤖 Informações</h2>
-<p title="COMBINADO_bot">O COMBINADO_bot é um bot completo, utiliza sistema baseado no Group Help e streaming de áudio e vídeo em call multifuncional do Telegram, de código aberto, desenvolvido usando a linguagem de programação Python e a biblioteca de cliente Pyrogram MTProto da API do Telegram e a biblioteca PyTgCalls, uma maneira segura e confiável de interagir com a plataforma do Telegram.</p>
+<p title="COMBINADO_bot">O COMBINADO é um bot completo, utiliza sistema baseado no Group Help e streaming de áudio e vídeo em call multifuncional do Telegram, de código aberto, desenvolvido usando a linguagem de programação Python e a biblioteca de cliente Pyrogram MTProto da API do Telegram e a biblioteca PyTgCalls, uma maneira segura e confiável de interagir com a plataforma do Telegram.</p>
 
 <h2>♨️ Hospede o COMBINADO BOT no seu servidor VPS</h2>
 
