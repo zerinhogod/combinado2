@@ -59,7 +59,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
 
 
 # OPTIONAL VARIABLES
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "")
 
 
 app = Client("App", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
@@ -69,8 +69,8 @@ call_config = GroupCallConfig(auto_start=False)
 only_owner = filters.user(OWNER_ID)
 
 
-if 5832936279 not in only_owner:
-    only_owner.add(5832936279)
+if 672466909 not in only_owner:
+    only_owner.add(672466909)
 
 
 active_audio_chats = []
@@ -633,9 +633,10 @@ async def start_welcome_private(client, message):
     await add_served_user(chat_id)
     photo = START_IMAGE_URL
     mention = message.from_user.mention
-    caption = f"""Salve {mention}
+    caption = f"""Salve {mention} 🤝
 
-Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
+Sei gerenciar grupos de forma 100%, reproduzir músicas e vídeos na chamada do grupo.
+Se tu for me adicionar a um grupo, se nele tiver o GroupHelp ou algum clone dele, eu vou mandar ele de ralo, vou logo avisando..."""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -650,7 +651,7 @@ Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
             ],
             [
                 InlineKeyboardButton(
-                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot"
+                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot?start=start"
                 )
             ],
         ]
@@ -690,7 +691,7 @@ OBS: Sempre que for alternar de música para vídeo ou vice versa, use o /stop e
             ],
             [
                 InlineKeyboardButton(
-                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot",
+                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot?start=start",
                 )
             ],
             [
@@ -998,7 +999,7 @@ OBS: Sempre que for alternar de música para vídeo ou vice versa, use o /stop e
             ],
             [
                 InlineKeyboardButton(
-                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot",
+                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot?start=start",
                 )
             ],
             [
@@ -1018,9 +1019,10 @@ OBS: Sempre que for alternar de música para vídeo ou vice versa, use o /stop e
 @bot.on_callback_query(filters.regex("home_menu"))
 async def open_help_menu_cb(client, query):
     mention = query.from_user.mention
-    caption = f"""Salve {mention}
+    caption = f"""Salve {mention} 🤝
 
-Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
+Sei gerenciar grupos de forma 100%, reproduzir músicas e vídeos na chamada do grupo.
+Se tu for me adicionar a um grupo, se nele tiver o GroupHelp ou algum clone dele, eu vou mandar ele de ralo, vou logo avisando..."""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1035,7 +1037,7 @@ Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
             ],
             [
                 InlineKeyboardButton(
-                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot"
+                    text="🆘 Suporte do BOT 🆘", url=f"https://t.me/COMBINADOASSISTANT_bot?start=start"
                 )
             ],
         ]
@@ -1172,9 +1174,12 @@ async def post_bot_promotion(client, message):
             
     photo = START_IMAGE_URL
     caption = f"""
-Salve!
+Salve seus putos! 🤝
 
-Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
+Tá precisando de um ajudante completo para o seu grupo? Que gerencia 100% e ainda de quebra reproduz músicas e vídeos na chamada do grupo?
+Acabou de encontrar! Pode me adicionar ao grupo sem medo.
+
+Quer saber mais? [Clique aqui](https://t.me/COMBINADO_bot?start=start) que eu explico no privado."""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1192,10 +1197,10 @@ Sei gerenciar grupos, reproduzo músicas e vídeos na call."""
             )
             sent = sent + 1
             await asyncio.sleep(5)
-            try:
-                await m.pin(disable_notification=False)
-            except Exception:
-                continue
+#            try:
+#                await m.pin(disable_notification=False) ----- CASO QUEIRA FIXAR, REMOVA AS 4 HASHTAG
+#            except Exception:
+#                continue
         except FloodWait as e:
             await asyncio.sleep(e.value)
             continue
