@@ -1197,10 +1197,10 @@ Quer saber mais? [Clique aqui](https://t.me/COMBINADO_bot?start=start) que eu ex
             )
             sent = sent + 1
             await asyncio.sleep(5)
-#            try:
-#                await m.pin(disable_notification=False) ----- CASO QUEIRA FIXAR, REMOVA AS 4 HASHTAG
-#            except Exception:
-#                continue
+            try:
+                await m.pin(disable_notification=False)
+            except Exception:
+                continue
         except FloodWait as e:
             await asyncio.sleep(e.value)
             continue
