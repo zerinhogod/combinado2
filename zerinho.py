@@ -59,7 +59,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
 
 
 # OPTIONAL VARIABLES
-START_IMAGE_URL = getenv("START_IMAGE_URL", "")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png")
 
 
 app = Client("App", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
